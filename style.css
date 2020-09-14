@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.line__top {
+    border: 1px solid #D9A78B;
+}
+
+nav {
+    max-width: 1440px;
+    max-height: 39px;
+    margin: 30px auto;
+    text-align: right;
+    background: #fff;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #D9A78B;
+    padding: 10px;
+    margin: 0 20px;  
+}
+
+nav a:hover {
+    color: #35402D;
+    transition: 0.3s;
+}
+.contact__btn:hover {
+    border-bottom: 2px solid #35402D;
+    transition: 0.3s;
+}
+
+.logo {
+    float: left;
+    top: 10px;
+    right: -100px;
+    width: 200px;
+    height: 40px;
+    color: #7C8C70;
+    left: 50px;
+    top: 30px; 
+    font-weight: 700;
+    text-align: left;
+    font-size: 1rem;
+}
+
+header {
+    background-image: url('header.jpg');
+    height: 60vh;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 25vh;
+    height: 60vh;
+    
+}
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+}
+
+main p.description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+}
+
+.line__middle {
+    max-width: 1000px;
+    border: 1px solid #D9A78B;
+    margin: 0 auto;
+}
+
+section div.features {
+    max-width: 1440px;
+    margin: 15vh auto;
+}
+
+section div.feature {
+    display: inline-block;
+    width: 33%;
+    font-size: 0;
+}
+
+section div.image1 {
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    background-color: cyan;
+    height: 200px;
+    margin: 20px 30px;
+}
+section div.image2 {
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    background-color: cyan;
+    height: 200px;
+    margin: 20px 30px;
+}
+section div.image3 {
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    background-color: cyan;
+    height: 200px;
+    margin: 20px 30px;
+}
+
+section h2 {
+    text-align: center;
+    color: #D9A78B;
+    font-size: 1rem;
+}
+
+footer {
+    display: block;
+    margin: 30px auto 0;
+    height: 50px;
+    background-color: #35402D;
+
+}
+
+footer p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
